@@ -14,12 +14,13 @@
 :root {
     --bg-color: #0e3781;
     --second-bg-color: #0b2f72;
+    --primary-color: #0f3199;
     --text-color: #fff;
     --main-color: rgb(99, 184, 241);
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 60.5%;
     overflow-x: hidden;
 
 }
@@ -39,11 +40,11 @@ section {
      top: 0;
      left: 0; 
      width: 100%;
-     padding: 2rem 9%;
-     background: var(--bg-color);
+     padding: 0rem 9%;
+     background: var(--primary-color);
      display: flex;
      justify-content: space-between;
-     align-items: left;
+     align-items: center;
      z-index: 100;
 }
 
@@ -227,4 +228,51 @@ span {
 .servicos-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+}
+
+.projetos {
+    background: var(--second-bg-color);
+}
+
+.projetos h2 {
+    margin-bottom: 4rem;
+
+}
+
+.projetos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+
+}
+
+.projetos-container .projetos-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: flex;
+    display: flex;
+
+}
+
+.projetos-box img {
+    width: 100%;
+}
+
+.projetos-box .projetos-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+
+
 }
