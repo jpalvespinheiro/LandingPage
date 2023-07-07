@@ -12,11 +12,12 @@
 }
 
 :root {
-    --bg-color: #0e3781;
-    --second-bg-color: #0b2f72;
+    --header-color: #033185;
+    --bg-color: #0c3683;
+    --second-bg-color: #023085;
     --primary-color: #0f3199;
     --text-color: #fff;
-    --main-color: #fff;
+    --main-color: #f0e5e5;
 }
 
 html {
@@ -26,7 +27,7 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+    background: var(--primary-color);
     color: var(--text-color);
 }
 
@@ -41,7 +42,7 @@ section {
      left: 0; 
      width: 100%;
      padding: 0.0rem 9%;
-     background: var(--primary-color);
+     background: var(--header-color);
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -378,8 +379,14 @@ span {
     background: var(--second-bg-color);
 }
 
-.footer-text p {
+.footer-text p{
     font-size: 1.6rem;
+    color: #fff;
+}
+
+.footer-text a{
+    font-size: 1.6rem;
+    color: #fff;
 }
 
 .footer-iconTop a {

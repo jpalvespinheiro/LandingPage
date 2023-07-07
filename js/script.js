@@ -1,4 +1,3 @@
-/*==================== toggle icon navbar ====================*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -7,7 +6,6 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
-/*==================== scroll sections active link ====================*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -48,11 +46,8 @@ ScrollReveal().reveal('.home-content h1, .sobre-img', { origin: 'left'});
 ScrollReveal().reveal('.home-content p, .sobre-content', { origin: 'right'});
 
 
-
-/*==================== typed js ====================*/
-
 const typed = new Typed('.multiple-text', {
-    strings: ['Desenvolvedor FullStack','Desenvolvedor Mobile', 'Designer gráfico'],
+    strings: ['Sites e Landing pages','Aplicativos Mobile', 'Designer gráfico'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
