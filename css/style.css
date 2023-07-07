@@ -16,7 +16,7 @@
     --second-bg-color: #0b2f72;
     --primary-color: #0f3199;
     --text-color: #fff;
-    --main-color: rgb(99, 184, 241);
+    --main-color: #fff;
 }
 
 html {
@@ -40,7 +40,7 @@ section {
      top: 0;
      left: 0; 
      width: 100%;
-     padding: 0rem 9%;
+     padding: 0.0rem 9%;
      background: var(--primary-color);
      display: flex;
      justify-content: space-between;
